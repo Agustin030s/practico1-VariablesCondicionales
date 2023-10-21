@@ -1,4 +1,4 @@
-let frase = prompt("Ingresa una frase:");
+let frase = prompt("Ingresa una frase de no más de 12 caracteres:");
 let fraseMinusculas = frase.toLowerCase(); // Convertir la frase a minúsculas para considerar tanto mayúsculas como minúsculas
 
 let resultado = "";
