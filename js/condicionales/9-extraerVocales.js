@@ -80,6 +80,20 @@ if(fraseMinusculas.length >= 10 &&
         resultado += fraseMinusculas.charAt(10);
 
 }
+if(fraseMinusculas.length >= 11 && 
+    (fraseMinusculas.charAt(11) === "a" || fraseMinusculas.charAt(11) === "e" || fraseMinusculas.charAt(11) === "i" 
+    || fraseMinusculas.charAt(11) === "o" || fraseMinusculas.charAt(11) === "u")){
+
+        resultado += fraseMinusculas.charAt(11);
+
+}
+if(fraseMinusculas.length >= 12 && 
+    (fraseMinusculas.charAt(12) === "a" || fraseMinusculas.charAt(12) === "e" || fraseMinusculas.charAt(12) === "i" 
+    || fraseMinusculas.charAt(12) === "o" || fraseMinusculas.charAt(12) === "u")){
+
+        resultado += fraseMinusculas.charAt(12);
+
+}
 
 document.write("<h2>Input: " + frase + "</h2>");
 document.write("<h2>Output: " + resultado + "</h2>");
